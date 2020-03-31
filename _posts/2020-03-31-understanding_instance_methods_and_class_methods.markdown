@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Understanding Instance methods and Class methods"
-date:       2020-03-31 04:44:59 +0000
+date:       2020-03-31 00:45:00 -0400
 permalink:  understanding_instance_methods_and_class_methods
 ---
 
@@ -11,6 +11,7 @@ Methods that work only on the instance or objects that we create are called inst
 Let’s jump to our example below:
 
 Class Dog
+
     def bark
        puts “Woof! Woof !”
     end  
