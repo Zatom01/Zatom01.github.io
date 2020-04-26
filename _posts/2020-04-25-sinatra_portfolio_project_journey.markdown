@@ -10,12 +10,10 @@ This project must be one of my favorite projects. Using Sinatra and ActiveRecord
 
 Route Handlers: With the use of HTTP verb like get,post,patch,delete, we can manage the flow of information from one place to another. The concept of named parameters and how they are accessed using the params hash was so important to learn and to do this project. For example; 
 
-```
                   get '/user/:id' do 
                         Userid= params[:id]
 			            end 
 			
-```
 
     Here, we can access the value of Userid by using the params[:id]. /user/2 gives the params[:id]=>2. It is always good to check the params hash on the Pry console to see what exactly is it giving. Pry console has now become my best friend after this project for debugging. 
 
