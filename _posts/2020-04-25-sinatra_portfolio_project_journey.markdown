@@ -9,14 +9,15 @@ permalink:  sinatra_portfolio_project_journey
 This project must be one of my favorite projects. Using Sinatra and ActiveRecord with some basic HTML knowledge, I was able to create beautiful looking user friendly webpages that mirrors the real world applications. I learned so many things from this project. For example, Route Handlers, 
 
 Route Handlers: With the use of HTTP verb like get,post,patch,delete, we can manage the flow of information from one place to another. The concept of named parameters and how they are accessed using the params hash was so important to learn and to do this project. For example; 
-``` 
-       get '/user/:id' do 
-            Userid= params[:id]
-			end 
+
+```
+                  get '/user/:id' do 
+                        Userid= params[:id]
+			            end 
 			
 ```
 
-Here, we can access the value of Userid by using the params[:id]. /user/2 gives the params[:id]=>2. It is always good to check the params hash on the Pry console to see what exactly is it giving. Pry console has now become my best friend after this project for debugging. 
+    Here, we can access the value of Userid by using the params[:id]. /user/2 gives the params[:id]=>2. It is always good to check the params hash on the Pry console to see what exactly is it giving. Pry console has now become my best friend after this project for debugging. 
 
 Learning how to render erb file from the Route handlers and passing user's information back to the controller was another important concept I got comfortable with during this project. This is where we will be using lots of params hash to load user data to the controllers. 
 
