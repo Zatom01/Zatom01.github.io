@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Arrow Function in React ?"
-date:       2020-11-09 23:20:47 +0000
+date:       2020-11-09 18:20:48 -0500
 permalink:  arrow_function_in_react
 ---
 
