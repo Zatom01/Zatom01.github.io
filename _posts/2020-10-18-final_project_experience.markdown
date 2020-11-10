@@ -11,15 +11,8 @@ I made a app called Landlord App. User can create landlord objects with differen
 With redux store, we don't have to worry where the state lives. There were so many new concepts with this project compared to my last JavaScript project. Terms like Component, props, state, Actions, Reducer, has become a second nature to me now after this project. 
 
 There are different ways we can pass props from one component to another. One of the coolest way I learned was from the Navlink itself. For example : 
+Navlink to="desired path", state="key value pairs".
 
-```
-Navlink to={{pathname: '/users/:id'},
-                      state: {
-				name: this.props.user.name,
-				age: this.props.age
-															
-				}}}
-```
 And the, in another component, you can obtain that 'state' by 'this.props.location.state.name'. 
 
 Also, I got a chance to make a use of Stateless and container components, class and functional components, React Router, connect function to connect to the Redux store, etc.  Coming from the React, I found Redux more complicated with more add on codes which was intimidating at first, but once I got used to it , I liked it. 
