@@ -18,7 +18,7 @@ Navlink to={{pathname: '/users/:id'},
 				name: this.props.user.name,
 				age: this.props.age
 															
-				}}
+				}}}
 ```
 And the, in another component, you can obtain that 'state' by 'this.props.location.state.name'. 
 
