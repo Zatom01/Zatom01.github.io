@@ -15,11 +15,10 @@ There are different ways we can pass props from one component to another. One of
 ```
 Navlink to={{pathname: '/users/:id'},
                       state: {
-											        name: this.props.user.name,
-															age: this.props.age
+				name: this.props.user.name,
+				age: this.props.age
 															
-											}
-}
+				}}
 ```
 And the, in another component, you can obtain that 'state' by 'this.props.location.state.name'. 
 
