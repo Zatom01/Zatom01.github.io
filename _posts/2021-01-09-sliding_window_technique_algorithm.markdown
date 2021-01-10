@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sliding Window Technique Algorithm"
-date:       2021-01-09 23:39:32 +0000
+date:       2021-01-09 18:39:32 -0500
 permalink:  sliding_window_technique_algorithm
 ---
 
@@ -38,3 +38,9 @@ var lengthOfLongestSubstring = function(s) {
 
 }
 ```
+
+Here,  I have a Set called set, left and right pointers. Set will store only unique characters and both pointers will start from 0. As we start from index 0, we will be saving each characters to the set until we see a duplicate character that is already in the set. So, when we first start, we focus on "abbceed". By the time, we reach 3rd character "b", our set will already have {'a', 'b'} and maxLength will be 2, right pointer at index 2 and left at 0. Here, at index 2, there is "b" which is already in the set, so we will delete "b" from our set and increase right pointer by 1. Now our set will be {'a'} and focus on "bbceed". We then substring from left pointer to right pointer and check if there is duplicate. If there is , we will delete the character left pointer is pointing in the set.  If there is no duplicate, we will increment our right pointer and keep adding unique character to the set until the end.
+
+This Sliding window technique works by checking substring inbetween 2 pointers and adding it to a Set until duplicate is found. When found, we delete character at left pointer in our set and increment our left pointer and check again. If there is no duplicates with in the range, we keep incrementing right pointer and check for duplicates.
+
+
