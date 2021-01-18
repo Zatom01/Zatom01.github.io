@@ -1,20 +1,20 @@
 ---
 layout: post
 title:      "Understanding Binary Search Algorithm "
-date:       2021-01-18 20:58:31 +0000
+date:       2021-01-18 15:58:31 -0500
 permalink:  understanding_binary_search_algorithm
 ---
 
 
 Today I will be presenting you a simple illustration of Binary Search Algorithm in Javascript. This algorithm has a  better time complexity than linear. It has a time complexity of O(log n) while linear is O(n). 
 
-To use this algorithm, input array must be sorted first. For example, we are given an array of integers and told that to find a specific integer in that array. 
+To use this algorithm, input array must be sorted first. For example, we are given an array of integers and told to find a specific integer in that array. 
 
 ```
 let arr=[1,2,3,4,5,6,7,9,11,23,55,66,70,13,14,81,82,83,85,86,88,89,90] , target integer = 90
 ```
 
-There is a brute force method, where we can check each element and see if they equals to our target integer. This array has a size of 23. That means, it would take 23 step to finally find our target integer. Imagine, if we have array size of 1 million and we have to find the last integer. It would be a disaster. 
+There is a brute force method where we can check each element and see if they equals to our target integer. This array has a size of 23. That means, it would take 23 step to finally find our target integer. Imagine if we have array size of 1 million and we have to find the last integer. It would be a disaster. 
 
 Well this is where Binary Search Algorithm comes to rescue. 
 
@@ -46,8 +46,8 @@ We will now set up our base condition (stopping point). Here we will say if arra
 
 ```
  if (array[mid] == num){
-      found = true
-			return num
+    found = true
+		return num
  }
 ```
 
@@ -114,7 +114,7 @@ Forloop : 90 found after 23 th try
 BinarySearch:  90 found after 5 th try
 ```
 
-We can see, by the brute force method, it took 23 steps inorder to find our targeted integer '90' where as it only took 5 steps for our binary search algorithm.  This is huge!  Time complexity of Binary search is O(log n) meaning for time complexity grows in proportion to  the logarithmic size of the input size. For example, if it takes x time for input size of 10, it would take 2x time for input size of 100. On the other hand O(n) means for input size of 100, it would take 100 time, and so on. 
+We can see  by the brute force method, it took 23 steps to find our targeted integer '90' where as it only took 5 steps for our binary search algorithm.  This is huge!  Time complexity of Binary search is O(log n) meaning for time, complexity grows in proportion to  the logarithmic size of the input size. For example, if it takes x time for input size of 10, it would take 2x time for input size of 100. On the other hand O(n) means for input size of 100, it would take 100 time, and so on. 
 
 
 
