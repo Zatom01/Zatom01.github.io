@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "BST,DFS,BFS-JS"
-date:       2021-01-26 20:51:32 +0000
+date:       2021-01-26 15:51:33 -0500
 permalink:  bst_dfs_bfs-js
 ---
 
 
 Lets code some JS and implement our Binary Search tree with all the good stuffs like Depth First Searches and Breadth First Search. Good thing about BST is that it is sorted. If you need to find a specific element in a tree, then you can cut the size in half in every iteration. 
 
-To build BST, we have to start from the root Node. Node has a value , left and right pointer. BST node can have only 2 pointers;left and right. In a way, linked list has also similary pattern. If you remember, linked list also has a node that has a pointer to another node.
+To build BST, we have to start from the root Node. Node has a value , left and right pointer. BST node can have only 2 pointers;left and right. In a way, linked list has also similar pattern. If you remember, linked list also has a node that has a pointer to another node.
 
 First thing first, we need to create the Node class inorder to keep creating nodes in a BST. 
 
