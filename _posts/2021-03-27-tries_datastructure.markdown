@@ -21,7 +21,7 @@ But, when we have to search for a string in a linkedlist, then we have to iterat
 
        q      r
 	
-		r     q       t 
+	r     q       t 
 
 s             e
 
