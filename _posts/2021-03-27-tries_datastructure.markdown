@@ -18,11 +18,11 @@ But, when we have to search for a string in a linkedlist, then we have to iterat
 ```
 
           p  <-- Root
-				 /  \
+
        q      r
-			/  \      \
+	
 		r     q       t 
-	/         \
+
 s             e
 
 ```
