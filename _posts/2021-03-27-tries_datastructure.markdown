@@ -17,14 +17,13 @@ For example, P –> Q –> R–> S–>null
 But, when we have to search for a string in a linkedlist, then we have to iterate over the whole linkedlist to verify each character exists or not. This is going to be expensive computation wise. So, we have tries to rescue. Lets try creating a tries data structure for the above three example strings. For the first string “pqrs”, p will be the root node. A root node can have multiple unique childrens. So, once root node for p is created, it will create a child node with a value of q. That child node will have another child node with a value of r. That r node will have child node with a value of s.
 ```
 
-             p  <-- Root
-
-         q      r
-	
-	r     q       t 
-
-s             e
-
+      p  (root)
+     / \
+    q    r 
+  /  \    \
+r     q    t
+ \      \
+  s      e
 ```
 
 
