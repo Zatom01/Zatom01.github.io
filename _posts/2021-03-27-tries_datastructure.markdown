@@ -31,13 +31,15 @@ Now, lets insert our second string “pqqe”. Lets check if first character “
 
 Now that we have inserted all the above strings, lets insert “bat”. We can do that here since root node is p. That is why we will have our root node Null or something so that we can add multiple starting value nodes like the following.
 
-           null <-- Root
-            /    \
-           p      b
-				 /  \        \
-       q    r        a
-			/  \    \         \
-		r     q   t         t
-	/         \
-s           e
+```
+     null (root)
+       /    \
+      p      b
+     / \      \
+    q    r     a
+  /  \    \     \
+r     q    t     t
+ \      \
+  s      e
+```
 So, this is the basic concept on the trie data structure. We will be looking on to some code in the next one.
