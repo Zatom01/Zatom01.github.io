@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tries Datastructure"
-date:       2021-03-27 22:32:13 +0000
+date:       2021-03-27 18:32:14 -0400
 permalink:  tries_datastructure
 ---
 
@@ -18,7 +18,6 @@ But, when we have to search for a string  in a linkedlist, then we have to itera
 
 
 
-```
           p  <-- Root
 				 /  \
        q    r
@@ -28,12 +27,10 @@ But, when we have to search for a string  in a linkedlist, then we have to itera
 s           e
 
 
-```
 Now, lets insert our second string "pqqe". Lets check if first character "p" exists already in the data structure. It does, so it does nothing and checks for second character q which exists already, does nothing and checks for third charater q. Here, our node with a value of q doesnot have a child node with a value of q, so it creates another child node with value q and checks for last character e. It doesnot exists so, it creates new child node with value e under last node of q.
 
 Now that we have inserted all the above strings, lets insert "bat". We can do that here since root node is p. That is why we will have our root node Null or something so that we can add multiple starting value nodes like the following.
 
-```
            null <-- Root
             /    \
            p      b
@@ -43,6 +40,5 @@ Now that we have inserted all the above strings, lets insert "bat". We can do th
 		r     q   t         t
 	/         \
 s           e
-```
 
 So, this is the basic concept on the trie data structure. We will be looking on to some code in the next one. 
